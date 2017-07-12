@@ -18,7 +18,7 @@ To see all the events, make a GET request to this endpoint: http://localhost:800
 
 
 example of return:
-```json
+```javascript
 [
     {
         "titulo_text": "Evento Teste", 
@@ -35,14 +35,13 @@ example of return:
 To see all the itens needed, make a GET request to this endpoint: http://localhost:8000/api/itens/
 
 example of return:
-```json
+```javascript
 [
     {
         "name_text": "Refrigerador", 
         "image_src_text": "", 
         "amount": 1
-    },
-    ...
+    }
 ]
 ```
 
