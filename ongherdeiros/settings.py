@@ -26,7 +26,7 @@ SECRET_KEY = '*^p(ix0y%o+tj_ab9a83)16ka(((qh04x8(-@1hh2*ww-hycji'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'http://herdeirosdofuturo.azurewebsites.net/'
+    'herdeirosdofuturo.azurewebsites.net'
 ]
 
 
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ongherdeiros'
 ]
 
 MIDDLEWARE = [
