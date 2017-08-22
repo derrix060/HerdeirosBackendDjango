@@ -25,7 +25,9 @@ SECRET_KEY = '*^p(ix0y%o+tj_ab9a83)16ka(((qh04x8(-@1hh2*ww-hycji'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'http://herdeirosdofuturo.azurewebsites.net/'
+]
 
 
 # Application definition
